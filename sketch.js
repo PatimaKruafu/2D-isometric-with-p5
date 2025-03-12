@@ -59,12 +59,12 @@ function setup() {
 
 
 function draw() {
-  //noSmooth();
+  noSmooth();
   background(231, 231, 231);
 
   //lines for debug
-  line(0, originY, width, originY); // X axis
-  line(originX, 0, originX, height); // Y axis
+  //line(0, originY, width, originY); // X axis
+  //line(originX, 0, originX, height); // Y axis
 
   //image(tile1Grid, originX, originY, tileWidth, tileHeight)  draw tile on origin x,y
 
